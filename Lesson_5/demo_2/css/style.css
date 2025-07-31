@@ -1,0 +1,46 @@
+p{
+    color: gray;
+    font-size: 20px;
+}
+strong{
+    background-color: red;
+    color: blue;
+    font-weight: lighter;
+}
+h1{
+    color: green;
+    font-size: 30px;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+ul{
+    list-style-type:square;
+    color: purple;
+}
+#punkt1{ 
+    font-weight: 900;
+
+}
+.aquamarine{
+background-color: aquamarine;
+    font-size: 25px;
+    font-weight: bold;
+}
+.red{
+    background-color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.small{
+    text-transform: uppercase;
+}
+.blue{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*
+Стилизация по классам */

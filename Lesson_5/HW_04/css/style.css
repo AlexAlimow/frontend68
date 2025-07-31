@@ -1,0 +1,58 @@
+
+
+h1{
+    color: blue;
+    font-size: 30px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+ul{
+    list-style-type: square;
+    color: purple;
+}
+.aquamarine{
+    background-color: aquamarine;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.aquamarine2{
+    background-color: rgb(210, 243, 240);
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-style: italic;
+}
+.ol1{
+     color: brown;
+    background-color: rgb(210, 243, 240);
+    font-size: 20px;
+    font-weight: normal;
+    list-style-type: decimal;  
+    margin: 0;                 
+    padding-left: 0;    
+}
+.highlight{
+    color: rgb(29, 96, 90);
+    font-weight: normal;
+    background-color: rgb(210, 243, 240);
+   
+}
+.italic{
+    font-style: italic;
+    background-color: rgb(210, 243, 240);
+     color: brown;
+.highlight2{
+    color: rgb(29, 96, 90);
+    font-weight: normal;
+    background-color: rgb(210, 243, 240);
+    font-style: italic;
+}
