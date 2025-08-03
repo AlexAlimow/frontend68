@@ -1,0 +1,42 @@
+
+h1{
+    text-align: left;
+    color: rgb(106, 106, 148);
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(11, 11, 186);
+}
+.teaser{
+    
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+.large_em_text{
+    font-size: larger;
+    font-weight: bold;
+    color: gray;
+}
+.yellow_block{
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    font-weight:550;
+}
+.list{
+    color: gray;
+}
+.gray_block{
+    background-color: lightgray;
+    border-radius: 5px;
+    color: gray;
+    font-weight:550;
+    text-decoration: none;
+}
+h3{
+    color: brown;
+}
+em{
+    color: rgb(26, 103, 26)
+}
