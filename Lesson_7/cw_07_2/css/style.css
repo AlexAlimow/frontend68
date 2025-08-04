@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: left;
+    text-transform: uppercase;
+}
+main h1, main h2 {
+    color: rgb(6, 26, 138);
+    
+}
+main h2 {
+    text-align: center;
+    text-decoration: 2px solid underline;
+}
+main strong {
+    font-size: 22px;
+    color: rgb(138, 136, 136);
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: yellow;
+}
+span.tech{
+    color: rgb(6, 92, 8);
+    font-style: italic;
+}
+aside h2{
+    font-size: 18px;
+     background-color: rgb(204, 202, 202);
+}
+aside h3{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 600;
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+div {
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: aqua;
+    border: 1px solid red;
+    padding: 30px;
+    padding-left: 100px;
+}
+
+#div2 {
+    width: 600px;
+}

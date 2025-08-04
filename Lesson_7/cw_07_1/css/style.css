@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+.css{
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 24px;
+    
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.times{
+    font-family: 'Times New Roman', Times, serif;
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+}   
