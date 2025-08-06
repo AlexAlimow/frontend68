@@ -58,9 +58,10 @@ main {
 
 /* Фото в карточках */
 .card img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: block;
   margin-bottom: 10px;
   border-radius: 5px;
+  margin: auto;
 }
