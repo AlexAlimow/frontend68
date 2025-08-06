@@ -12,26 +12,26 @@ header {
   width: 100%;
   background-color: #014567;
   color: white;
-  padding: 15px;
+  padding: 16px;
   text-align: center;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Отступ сверху, чтобы не перекрывать карточки */
 main {
   margin-top: 100px;
-  padding: 20px;
+  padding: 24px;
 }
 
 /* Общий стиль карточек */
 .card {
   width: 300px;
-  padding: 15px;
+  padding: 16px;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
   position: relative;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Лестничное смещение */
