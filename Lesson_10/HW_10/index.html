@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW_10</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Форма обратной связи</h1>
+
+  <form class="feedback-form">
+    <fieldset>
+      <legend>Как с вами связаться</legend>
+
+      <label>Ваше имя:<br>
+        <input type="text" placeholder="Ваше имя">
+      </label><br><br>
+
+      <label>Email:<br>
+        <input type="email" placeholder="box@mail.com">
+      </label><br><br>
+
+      <label>Телефон:<br>
+        <input type="tel" placeholder="+49 111 777-200-200">
+      </label><br><br>
+
+      <fieldset>
+        <legend>Данные контракта</legend>
+        <label>Дата:<br>
+          <input type="date">
+        </label><br><br>
+        <label>Номер:<br>
+          <input type="text" placeholder="K/209/13">
+        </label>
+      </fieldset><br>
+
+      <p>Оцените наш сервис:</p>
+      <label><input type="radio" name="rate"> Хорошо</label>
+      <label><input type="radio" name="rate"> Удовлетворительно</label>
+      <label><input type="radio" name="rate"> Плохо</label><br><br>
+
+      <p>Как часто используете наш сервис:</p>
+      <label><input type="radio" name="usage"> Первый раз</label>
+      <label><input type="radio" name="usage"> Иногда</label>
+      <label><input type="radio" name="usage"> Часто</label><br><br>
+
+      <label>Сообщение:<br>
+        <textarea placeholder="Напишите ваше сообщение ...."></textarea>
+      </label><br><br>
+
+      <label><input type="checkbox"> Даю согласие</label><br><br>
+
+      <button type="submit">Отправить</button>
+    </fieldset>
+  </form>
+
+</body>
+</html>

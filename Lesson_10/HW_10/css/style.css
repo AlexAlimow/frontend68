@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.feedback-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 2px solid #4a90e2;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+}
+
+legend {
+  padding: 5px 15px;
+  border: 2px solid #4a90e2;
+  border-radius: 25px; 
+  background: #fff;
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  background: #4a90e2;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #357ABD;
+}
