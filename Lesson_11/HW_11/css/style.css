@@ -5,8 +5,8 @@ body {
 
 .menu{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+  
     background: #2477eb;
     padding: 15px;
 }
