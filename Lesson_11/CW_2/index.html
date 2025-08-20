@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo cw_11</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <select name="operation" required>
+
+            <option value="">Выберите тип операции</option>
+            <optgroup label="операции со счетом">
+                <option value="1">пополнить</option>
+                <option value="2"> снять</option>
+                <option value="3">баланс</option>
+            </optgroup>
+            <optgroup label="операции по кредиту">
+                <option value="4">погасить планово</option>
+                <option value="5">погасить досрочно</option>
+                <option value="6">выписка</option>
+
+
+            </optgroup>
+        </select>
+
+        <br>
+        <br>
+        <label for="city">введите ваш город</label>
+        <input list="cities" name="city" id="city"> 
+        <datalist id="cities">
+            <option value="Berlin">
+            <option value="Hamburg">
+            <option value="Potsdam">
+        </datalist>
+        <br>
+        <br>
+
+        <label for="password">введите пароль</label> 
+        <input type="password" name="password" id="password" placeholder="введите пароль" required minlength="8" pattern="(?=.*[0-9])(?=.*[a-zA-Z]).{8,}" title="Минимум 8 символов, 1 заглавная, 1 строчная, 1 цифра" >
+        
+        <br>
+        <br>
+
+        <button type="submit">отправить</button>
+
+
+    </form>
+</body>
+
+</html>

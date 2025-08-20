@@ -19,7 +19,7 @@ fieldset {
 legend {
   padding: 5px 15px;
   border: 2px solid #4a90e2;
-  border-radius: 25px; 
+  border-radius: 25px; /* круглое */
   background: #fff;
   color: #4a90e2;
   font-weight: bold;
