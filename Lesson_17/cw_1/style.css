@@ -26,7 +26,7 @@ body {
 }
 
 /* Занавеска */
-.curtain {
+.block {
     position: absolute;
     top: 0;
     /* старт с самого верха */
