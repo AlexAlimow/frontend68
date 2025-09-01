@@ -21,6 +21,7 @@ form.addEventListener('submit', function(event) {
     deleteBtn.addEventListener('click', () => {
         li.remove(); // удаляем элемент из списка
     });
+    
 
     li.appendChild(deleteBtn);
     userList.appendChild(li);
