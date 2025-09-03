@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script/script.js" defer></script>
-    <link rel="stylesheet" href="css/style.css">
     <title>HW_20</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
 </head>
 <body>
-    <H1>🐶 Пёсики с dog API</H1>
-    <img id="dogImage" src="" alt="фото собаки">
+    <h1>🐶 Пёсики с dog API</h1>
+
+    <!-- Контейнер для картинки -->
+    <div class="img-container">
+        <img id="dogImage" src="" alt="фото собаки">
+    </div>
+    
+    <!-- Кнопки управления -->
     <div>
         <button id="nextDog">Следующий пёсель</button>
         <button id="startAuto">Автоперелистывание</button>
         <button id="stopAuto">Отключить автоперелистывание</button>
         <button id="faster">Быстрее</button>
         <button id="slower">Медленнее</button>
-
     </div>
+
     <p id="speed">Скорость: 3 сек</p>
 </body>
 </html>
